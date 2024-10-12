@@ -1,0 +1,28 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore environment variable files
+.env
+.env.local
+
+# Ignore build outputs and logs
+dist/
+build/
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+secret-config.json
+credentials.yml
+
+# Ignore temporary files or IDE configurations
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Ignore compiled TypeScript files
+*.tsbuildinfo
